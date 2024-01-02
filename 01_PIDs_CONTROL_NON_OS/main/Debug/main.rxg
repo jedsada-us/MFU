@@ -1,0 +1,4 @@
+-cpu=rx600
+-output="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop5\01_PIDs_Control_Non_OS\main\Debug\main.lib"
+-lang=c99
+-head=runtime,stdio,stdlib,string,new

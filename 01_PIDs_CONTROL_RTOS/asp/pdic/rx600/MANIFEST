@@ -1,0 +1,12 @@
+PACKAGE pdic_rx600
+VERSION 1.6.0
+
+MANIFEST
+rx600_gpio.c
+rx600_gpio.h
+rx600_adc.c
+rx600_adc.h
+rx600_pwm.c
+rx600_pwm.h
+rx600_uart.c
+rx600_uart.h

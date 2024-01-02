@@ -1,0 +1,92 @@
+;RX Family C/C++ Compiler (V.1.02.01.000)  03-May-2019 14:40:0
+
+;*** CPU TYPE ***
+
+;-CPU=RX600
+
+;*** COMMAND PARAMETER ***
+
+;-output=src=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\makeoffset\Debug\makeoffset.src
+;-nologo
+;-cpu=rx600
+;-lang=c99
+;-include=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\..\..\..
+;-include=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\..\..\..\include
+;-include=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\..\..\..\kernel
+;-include=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\..\..\..\arch
+;-include=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\..\..\..\target\kiss_rx62t
+;-debug
+;-section=L=C
+;-speed
+;-inline=100
+;-noscope
+;C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\arch\rx_rxc\makeoffset.c
+
+;C LABEL    INSTRUCTION OPERAND    COMMENT
+
+            .SECTION    C,ROMDATA,ALIGN=4
+            .glb        _____BEGIN_OFF_TCB_tstat
+_____BEGIN_OFF_TCB_tstat:          ; static: ____BEGIN_OFF_TCB_tstat
+            .lword       00000000H, 00000000H, 00000000H
+            .byte        01H, 00H
+            .byte        00H
+            .byte        00H
+            .lword       00000000H, 00000000H
+            .lword       00000000H, 00000000H, 00000000H
+            .glb        _____BEGIN_OFF_TCB_tinib
+_____BEGIN_OFF_TCB_tinib:          ; static: ____BEGIN_OFF_TCB_tinib
+            .lword       00000000H, 00000000H, 00000001H
+            .byte        00H, 00H
+            .byte        00H
+            .byte        00H
+            .lword       00000000H, 00000000H
+            .lword       00000000H, 00000000H, 00000000H
+            .glb        _____BEGIN_OFF_TCB_pc
+_____BEGIN_OFF_TCB_pc:             ; static: ____BEGIN_OFF_TCB_pc
+            .lword       00000000H, 00000000H, 00000000H
+            .byte        00H, 00H
+            .byte        00H
+            .byte        00H
+            .lword       00000000H, 00000000H
+            .lword       00000000H, 00000000H, 00000001H
+            .glb        _____BEGIN_OFF_TCB_sp
+_____BEGIN_OFF_TCB_sp:             ; static: ____BEGIN_OFF_TCB_sp
+            .lword       00000000H, 00000000H, 00000000H
+            .byte        00H, 00H
+            .byte        00H
+            .byte        00H
+            .lword       00000000H, 00000000H
+            .lword       00000000H, 00000001H, 00000000H
+            .glb        _____BEGIN_BIT_TCB_enatex
+_____BEGIN_BIT_TCB_enatex:         ; static: ____BEGIN_BIT_TCB_enatex
+            .lword       00000000H, 00000000H, 00000000H
+            .byte        00H, 00H
+            .byte        00H
+            .byte        00H
+            .lword       00000004H, 00000000H
+            .lword       00000000H, 00000000H, 00000000H
+            .glb        _____BEGIN_OFF_TCB_texptn
+_____BEGIN_OFF_TCB_texptn:         ; static: ____BEGIN_OFF_TCB_texptn
+            .lword       00000000H, 00000000H, 00000000H
+            .byte        00H, 00H
+            .byte        00H
+            .byte        00H
+            .lword       00000000H, 00000001H
+            .lword       00000000H, 00000000H, 00000000H
+            .glb        _____BEGIN_OFF_TINIB_exinf
+_____BEGIN_OFF_TINIB_exinf:        ; static: ____BEGIN_OFF_TINIB_exinf
+            .lword       00000000H
+            .lword       00000001H, 00000000H
+            .lword       00000000H, 00000000H
+            .lword       00000000H
+            .lword       00000000H
+            .lword       00000000H
+            .glb        _____BEGIN_OFF_TINIB_task
+_____BEGIN_OFF_TINIB_task:         ; static: ____BEGIN_OFF_TINIB_task
+            .lword       00000000H
+            .lword       00000000H, 00000001H
+            .lword       00000000H, 00000000H
+            .lword       00000000H
+            .lword       00000000H
+            .lword       00000000H
+            .END

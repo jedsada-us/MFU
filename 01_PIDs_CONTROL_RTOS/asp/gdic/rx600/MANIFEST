@@ -1,0 +1,6 @@
+PACKAGE gdic_rx600
+VERSION 1.6.0
+
+MANIFEST
+rx600_device.c
+rx600_device.h

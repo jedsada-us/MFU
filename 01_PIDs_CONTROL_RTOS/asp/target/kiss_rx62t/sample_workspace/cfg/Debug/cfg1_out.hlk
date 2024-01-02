@@ -1,0 +1,15 @@
+-noprelink
+-nomessage
+-list="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\cfg\Debug\cfg.map"
+-show=symbol
+-nooptimize
+-start=C/0100000,P/0FFE80000
+-nologo
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\cfg\Debug\cfg1_out.obj"
+-output="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\cfg\Debug\cfg1_out.abs"
+-end
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\cfg\Debug\cfg1_out.abs"
+-form=stype
+-output="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\cfg\Debug\cfg1_out.srec"
+-exit
+

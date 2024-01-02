@@ -1,0 +1,133 @@
+Optimizing Linkage Editor (V.10.02.00.000)        03-May-2019 14:53:35
+
+*** Options ***
+
+-subcommand=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\kernel.hlk
+-noprelink
+-form=library
+-nomessage
+-list="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\kernel.lbp"
+-nologo
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\alarm.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\cyclic.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\dataqueue.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\eventflag.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\exception.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\interrupt.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\mailbox.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\mempfix.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\prc_config.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\prc_support.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\pridataq.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\rx600_adc.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\rx600_gpio.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\rx600_pwm.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\rx600_serial.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\rx62t_conifg.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\semaphore.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\startup.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\sys_manage.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\target_adc.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\target_config.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\target_gpio.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\target_pwm.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\target_serial.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\target_support.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\target_timer.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\task.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\task_except.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\task_manage.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\task_refer.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\task_sync.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\time_event.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\time_manage.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\wait.obj"
+-output="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\kernel.lib"
+-exit
+
+*** Error information ***
+
+** L1200 (W) Backed up file "C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\kernel.lib" into "C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\kernel.lbk"
+
+*** Library Information ***
+
+LIBRARY NAME=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\kernel.lib
+CPU=RX
+ENDIAN=Little
+ATTRIBUTE=user
+NUMBER OF MODULE=34
+
+*** Library List ***
+
+MODULE    LAST UPDATE
+  SECTION
+    SYMBOL
+
+alarm
+          03-May-2019 14:53:14
+cyclic
+          03-May-2019 14:53:14
+dataqueue
+          03-May-2019 14:53:16
+eventflag
+          03-May-2019 14:53:15
+exception
+          03-May-2019 14:53:15
+interrupt
+          03-May-2019 14:53:18
+mailbox
+          03-May-2019 14:53:18
+mempfix
+          03-May-2019 14:53:18
+prc_config
+          03-May-2019 14:53:14
+prc_support
+          03-May-2019 14:53:33
+pridataq
+          03-May-2019 14:53:19
+rx600_adc
+          03-May-2019 14:53:25
+rx600_gpio
+          03-May-2019 14:53:29
+rx600_pwm
+          03-May-2019 14:53:29
+rx600_serial
+          03-May-2019 14:53:29
+rx62t_conifg
+          03-May-2019 14:53:14
+semaphore
+          03-May-2019 14:53:19
+startup
+          03-May-2019 14:53:19
+sys_manage
+          03-May-2019 14:53:21
+target_adc
+          03-May-2019 14:53:28
+target_config
+          03-May-2019 14:53:31
+target_gpio
+          03-May-2019 14:53:31
+target_pwm
+          03-May-2019 14:53:30
+target_serial
+          03-May-2019 14:53:31
+target_support
+          03-May-2019 14:53:33
+target_timer
+          03-May-2019 14:53:32
+task
+          03-May-2019 14:53:21
+task_except
+          03-May-2019 14:53:21
+task_manage
+          03-May-2019 14:53:24
+task_refer
+          03-May-2019 14:53:23
+task_sync
+          03-May-2019 14:53:24
+time_event
+          03-May-2019 14:53:26
+time_manage
+          03-May-2019 14:53:26
+wait
+          03-May-2019 14:53:26

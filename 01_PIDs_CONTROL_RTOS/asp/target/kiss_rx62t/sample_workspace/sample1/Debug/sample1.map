@@ -1,0 +1,1112 @@
+Optimizing Linkage Editor (V.10.02.00.000)        03-May-2019 15:59:46
+
+*** Options ***
+
+-subcommand=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\sample1.hlk
+-noprelink
+-nomessage
+-list="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\sample1.map"
+-show=symbol,reference,total_size,vector
+-nooptimize
+-start=D,D_2,D_1,B,B_2,B_1,SI,W,W_1,W_2/00,P,C,C_2,C_1,R,R_2,R_1,C$VECT/0FFFF8000,FVECT/0FFFFFF80
+-nologo
+-stack
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\start.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\banner.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\histogram.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\kernel_cfg.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\kernel_cfg_asm.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\log_output.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\logtask.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\prc_test.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\sample1.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\serial.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\strerror.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\syslog.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\t_perror.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\vasyslog.obj"
+-library="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\kernel\Debug\kernel.lib"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\adc.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\gpio.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\pwm.obj"
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\test_lib.obj"
+-output="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\sample1.abs"
+-end
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+D
+                                  00000000  00000027        28   4
+D_2
+                                  00000028  00000037        10   2
+D_1
+                                  00000038  0000003c         5   1
+B
+                                  00000040  0000102b       fec   4
+B_2
+                                  0000102c  0000102f         4   2
+B_1
+                                  00001030  0000122f       200   1
+SI
+                                  00001230  0000172f       500   4
+W
+                                  00001730  00001730         0   4
+W_1
+                                  00001730  00001730         0   1
+W_2
+                                  00001730  00001730         0   2
+P
+                                  ffff8000  ffffce5f      4e60   1
+C
+                                  ffffce60  fffff52b      26cc   4
+C_2
+                                  fffff52c  fffff52c         0   2
+C_1
+                                  fffff52c  fffff72e       203   1
+R
+                                  fffff730  fffff730         0   4
+R_2
+                                  fffff730  fffff730         0   2
+R_1
+                                  fffff730  fffff730         0   1
+C$VECT
+                                  fffff730  fffffb2f       400   1
+FVECT
+                                  ffffff80  ffffffff        80   1
+
+*** Total Section Size ***
+
+RAMDATA SECTION:  000016f0 Byte(s)
+ROMDATA SECTION:  00002d8c Byte(s)
+PROGRAM SECTION:  00004e60 Byte(s)
+
+*** Symbol List ***
+
+SECTION=
+FILE=                               START        END    SIZE
+  SYMBOL                            ADDR        SIZE    INFO      COUNTS  OPT
+
+SECTION=D
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\sample1.obj
+                                  00000000  0000001b        1c
+  _ut
+                                  00000000         4   data ,l         2
+  _Kp
+                                  00000004         4   data ,l         2
+  _Ki
+                                  00000008         4   data ,l         2
+  _Kd
+                                  0000000c         4   data ,l         2
+  _Dt
+                                  00000010         4   data ,l         2
+  _accumError$24
+                                  00000014         4   data ,l         1
+  _lastError$25
+                                  00000018         4   data ,l         1
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\test_lib.obj
+                                  0000001c  00000023         8
+  _check_count
+                                  0000001c         4   data ,l         1
+  _check_bit_func
+                                  00000020         4   data ,l         2
+FILE=startup
+                                  00000024  00000027         4
+  __kernel_kerflg
+                                  00000024         4   data ,g         3
+
+SECTION=D_2
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\sample1.obj
+                                  00000028  00000033         c
+  _an5_dat
+                                  00000028         2   data ,l         2
+  _an4_dat
+                                  0000002a         2   data ,l         2
+  _feedback
+                                  0000002c         2   data ,l         2
+  _setpoint
+                                  0000002e         2   data ,l         2
+  _an2_dat$45
+                                  00000030         2   data ,l         2
+  _an3_dat$46
+                                  00000032         2   data ,l         2
+FILE=rx600_adc
+                                  00000034  00000035         2
+  _dat$36
+                                  00000034         2   data ,l         3
+FILE=rx600_pwm
+                                  00000036  00000037         2
+  _duty$41
+                                  00000036         2   data ,l         1
+
+SECTION=D_1
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\sample1.obj
+                                  00000038  0000003c         5
+  _led_state$39
+                                  00000038         1   data ,l         2
+  _sw4_dat$47
+                                  00000039         1   data ,l         2
+  _sw5_dat$48
+                                  0000003a         1   data ,l         2
+  _sw6_dat$49
+                                  0000003b         1   data ,l         2
+  _sw7_dat$50
+                                  0000003c         1   data ,l         2
+
+SECTION=B
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\histogram.obj
+                                  00000040  00000107        c8
+  _histcb_table
+                                  00000040        c8   data ,g         4
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\kernel_cfg.obj
+                                  00000108  00000a57       950
+  __kernel_stack_LOGTASK
+                                  00000108       400   data ,l         1
+  __kernel_stack_TASK1
+                                  00000508       200   data ,l         1
+  __kernel_stack_MAIN_TASK
+                                  00000708       200   data ,l         1
+  __kernel_tcb_table
+                                  00000908        6c   data ,g        11
+  __kernel_semcb_table
+                                  00000974        20   data ,g         8
+  __kernel_flgcb_table
+                                  00000994        10   data ,g         0
+  __kernel_dtqcb_table
+                                  000009a4        20   data ,g         0
+  __kernel_pdqcb_table
+                                  000009c4        24   data ,g         0
+  __kernel_mbxcb_table
+                                  000009e8        14   data ,g         0
+  __kernel_mpfcb_table
+                                  000009fc        18   data ,g         0
+  __kernel_cyccb_table
+                                  00000a14        18   data ,g         0
+  __kernel_almcb_table
+                                  00000a2c        14   data ,g         0
+  __kernel_tmevt_heap
+                                  00000a40        18   data ,g         8
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\logtask.obj
+                                  00000a58  00000a5b         4
+  _logtask_portid
+                                  00000a58         4   data ,l         4
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\serial.obj
+                                  00000a5c  00000a93        38
+  _spcb_table
+                                  00000a5c        38   data ,l         8
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\syslog.obj
+                                  00000a94  00000eab       418
+  _syslog_buffer
+                                  00000a94       400   data ,l         2
+  _syslog_count
+                                  00000e94         4   data ,l         4
+  _syslog_head
+                                  00000e98         4   data ,l         4
+  _syslog_tail
+                                  00000e9c         4   data ,l         3
+  _syslog_lost
+                                  00000ea0         4   data ,l         4
+  _syslog_logmask
+                                  00000ea4         4   data ,l         4
+  _syslog_lowmask_not
+                                  00000ea8         4   data ,l         4
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\adc.obj
+                                  00000eac  00000ebb        10
+  _apcb_table
+                                  00000eac        10   data ,l         4
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\gpio.obj
+                                  00000ebc  00000efb        40
+  _gpcb_table
+                                  00000ebc        40   data ,l         5
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\pwm.obj
+                                  00000efc  00000f0b        10
+  _ppcb_table
+                                  00000efc        10   data ,l         4
+FILE=task
+                                  00000f0c  00000f9f        94
+  __kernel_p_runtsk
+                                  00000f0c         4   data ,g        23
+  __kernel_p_schedtsk
+                                  00000f10         4   data ,g         e
+  __kernel_reqflg
+                                  00000f14         4   data ,g         c
+  __kernel_disdsp
+                                  00000f18         4   data ,g         9
+  __kernel_dspflg
+                                  00000f1c         4   data ,g        16
+  __kernel_ready_queue
+                                  00000f20        80   data ,g         7
+FILE=time_event
+                                  00000fa0  00000faf        10
+  __kernel_current_time
+                                  00000fa0         4   data ,g         6
+  __kernel_min_time
+                                  00000fa4         4   data ,g         b
+  __kernel_next_time
+                                  00000fa8         4   data ,g         6
+  __kernel_last_index
+                                  00000fac         4   data ,g         7
+FILE=rx600_adc
+                                  00000fb0  00000fbf        10
+  _aiopcb_table
+                                  00000fb0        10   data ,l         3
+FILE=rx600_gpio
+                                  00000fc0  00000fff        40
+  _giopcb_table
+                                  00000fc0        40   data ,l         4
+FILE=rx600_pwm
+                                  00001000  0000100f        10
+  _piopcb_table
+                                  00001000        10   data ,l         3
+FILE=rx600_serial
+                                  00001010  0000102b        1c
+  _siopcb_table
+                                  00001010        1c   data ,l         5
+
+SECTION=B_2
+FILE=prc_config
+                                  0000102c  0000102d         2
+  __kernel_intnest
+                                  0000102c         2   data ,g        38
+FILE=task
+                                  0000102e  0000102f         2
+  __kernel_ready_primap
+                                  0000102e         2   data ,g         7
+
+SECTION=B_1
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\serial.obj
+                                  00001030  0000122f       200
+  _rcv_buffer1
+                                  00001030       100   data ,l         1
+  _snd_buffer1
+                                  00001130       100   data ,l         1
+
+SECTION=SI
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\start.obj
+                                  00001230  0000172f       500
+  _DEFAULT_ISTACK
+                                  00001230         0   none ,g         2
+  DEFAULT_ISTACK_TOP
+                                  00001730         0   none ,g         0
+
+SECTION=P
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\start.obj
+                                  ffff8000  ffff80ab        ac
+  _start
+                                  ffff8000         0   none ,g         1
+  init_D
+                                  ffff8024         0   none ,l         1
+  init_D_2
+                                  ffff803c         0   none ,l         1
+  init_D_1
+                                  ffff8054         0   none ,l         1
+  clear_B
+                                  ffff806c         0   none ,l         1
+  clear_B_2
+                                  ffff807c         0   none ,l         0
+  clear_B_1
+                                  ffff808c         0   none ,l         0
+  kernel_link
+                                  ffff80a8         0   none ,l         1
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\banner.obj
+                                  ffff80ac  ffff80cb        20
+  _print_banner
+                                  ffff80ac        20   func ,g         1
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\histogram.obj
+                                  ffff80cc  ffff828b       1c0
+  _init_hist
+                                  ffff80cc        5a   func ,g         0
+  _begin_measure
+                                  ffff8126        3f   func ,g         0
+  _end_measure
+                                  ffff8165        73   func ,g         0
+  _print_hist
+                                  ffff81d8        b4   func ,g         0
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\kernel_cfg.obj
+                                  ffff828c  ffff8387        fc
+  __kernel_inthdr_30
+                                  ffff828c        1a   func ,g         1
+  __kernel_inthdr_31
+                                  ffff82a6        1a   func ,g         1
+  __kernel_inthdr_66
+                                  ffff82c0        1a   func ,g         1
+  __kernel_inthdr_98
+                                  ffff82da        1a   func ,g         1
+  __kernel_inthdr_215
+                                  ffff82f4        1b   func ,g         1
+  __kernel_inthdr_217
+                                  ffff830f        1b   func ,g         1
+  __kernel_initialize_object
+                                  ffff832a        10   func ,g         1
+  __kernel_call_inirtn
+                                  ffff833a        42   func ,g         1
+  __kernel_call_terrtn
+                                  ffff837c         c   func ,g         1
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\kernel_cfg_asm.obj
+                                  ffff8388  ffff840e        87
+  __kernel_target_timer_handler_28_entry
+                                  ffff8388         0   none ,g         2
+  __kernel__kernel_inthdr_30_30_entry
+                                  ffff8397         0   none ,g         2
+  __kernel__kernel_inthdr_31_31_entry
+                                  ffff83a6         0   none ,g         2
+  __kernel__kernel_inthdr_66_66_entry
+                                  ffff83b5         0   none ,g         2
+  __kernel__kernel_inthdr_98_98_entry
+                                  ffff83c4         0   none ,g         2
+  __kernel__kernel_inthdr_215_215_entry
+                                  ffff83d3         0   none ,g         2
+  __kernel__kernel_inthdr_217_217_entry
+                                  ffff83e2         0   none ,g         2
+  __kernel_default_int_handler_entry
+                                  ffff83f1         0   none ,g        f9
+  __kernel_default_exc_handler_entry
+                                  ffff8400         0   none ,g         4
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\log_output.obj
+                                  ffff840f  ffff867a       26c
+  _convert
+                                  ffff840f        7a   func ,l         1
+  _syslog_printf
+                                  ffff8489       1b7   func ,g         3
+  _syslog_print
+                                  ffff8640        1f   func ,g         8
+  _syslog_lostmsg
+                                  ffff865f        1c   func ,g         8
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\logtask.obj
+                                  ffff867b  ffff87ea       170
+  _logtask_putc
+                                  ffff867b        18   func ,l         1
+  _logtask_flush
+                                  ffff8693        63   func ,g         0
+  _logtask_main
+                                  ffff86f6        83   func ,g         1
+  _logtask_terminate
+                                  ffff8779        72   func ,g         1
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\prc_test.obj
+                                  ffff87eb  ffff87fd        13
+  _trigger_cpu_exception
+                                  ffff87eb         0   none ,g         0
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\sample1.obj
+                                  ffff87fe  ffff9229       a2c
+  _task
+                                  ffff87fe       26f   func ,g         1
+  _main_task
+                                  ffff8a6d       7bd   func ,g         1
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\serial.obj
+                                  ffff922a  ffff99c2       799
+  _serial_initialize
+                                  ffff922a        22   func ,g         1
+  _serial_opn_por
+                                  ffff924c        9f   func ,g         2
+  _serial_cls_por
+                                  ffff92eb        a0   func ,g         0
+  _serial_wri_chr
+                                  ffff938b        af   func ,l         2
+  _serial_wri_dat
+                                  ffff943a        b3   func ,g         2
+  _serial_rea_dat
+                                  ffff94ed       27c   func ,g         1
+  _serial_ctl_por
+                                  ffff9769        4a   func ,g         1
+  _serial_ref_por
+                                  ffff97b3        4f   func ,g         1
+  _sio_irdy_snd
+                                  ffff9802        6b   func ,g         1
+  _sio_irdy_rcv
+                                  ffff986d       10b   func ,g         1
+  _serial_get_chr
+                                  ffff9978        4b   func ,g         1
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\strerror.obj
+                                  ffff99c3  ffff9af8       136
+  _itron_strerror
+                                  ffff99c3       136   func ,g        22
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\syslog.obj
+                                  ffff9af9  ffff9c91       199
+  _syslog_initialize
+                                  ffff9af9        33   func ,g         1
+  _syslog_wri_log
+                                  ffff9b2c        ab   func ,g        39
+  _syslog_rea_log
+                                  ffff9bd7        67   func ,g         7
+  _syslog_msk_log
+                                  ffff9c3e        15   func ,g         2
+  _syslog_ref_log
+                                  ffff9c53        3f   func ,g         1
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\t_perror.obj
+                                  ffff9c92  ffff9cc8        37
+  _t_perror
+                                  ffff9c92        37   func ,g         9
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\vasyslog.obj
+                                  ffff9cc9  ffff9d88        c0
+  _syslog
+                                  ffff9cc9        c0   func ,g        2f
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\adc.obj
+                                  ffff9d89  ffff9f0f       187
+  _adc_initialize
+                                  ffff9d89        13   func ,g         1
+  _adc_opn_por
+                                  ffff9d9c        80   func ,g         1
+  _adc_cls_por
+                                  ffff9e1c        7d   func ,g         1
+  _adc_rea_dat
+                                  ffff9e99        77   func ,g         4
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\gpio.obj
+                                  ffff9f10  ffffa10d       1fe
+  _gpio_initialize
+                                  ffff9f10        13   func ,g         1
+  _gpio_opn_por
+                                  ffff9f23        80   func ,g         4
+  _gpio_cls_por
+                                  ffff9fa3        7d   func ,g         1
+  _gpio_wri_dat
+                                  ffffa020        77   func ,g         e
+  _gpio_rea_dat
+                                  ffffa097        77   func ,g         4
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\pwm.obj
+                                  ffffa10e  ffffa294       187
+  _pwm_initialize
+                                  ffffa10e        13   func ,g         1
+  _pwm_opn_por
+                                  ffffa121        80   func ,g         1
+  _pwm_cls_por
+                                  ffffa1a1        7d   func ,g         1
+  _pwm_wri_dat
+                                  ffffa21e        77   func ,g         2
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\test_lib.obj
+                                  ffffa295  ffffa4dd       249
+  _set_bit_func
+                                  ffffa295         9   func ,g         0
+  _syslog_flush
+                                  ffffa29e        37   func ,g         3
+  _test_finish
+                                  ffffa2d5        14   func ,g         0
+  _check_point
+                                  ffffa2e9        d0   func ,g         1
+  _check_finish
+                                  ffffa3b9        5c   func ,g         0
+  __check_assert
+                                  ffffa415        5f   func ,g         0
+  __check_ercd
+                                  ffffa474        6a   func ,g         0
+FILE=exception
+                                  ffffa4de  ffffa541        64
+  __kernel_initialize_exception
+                                  ffffa4de        12   func ,g         1
+  _xsns_dpn
+                                  ffffa4f0        2e   func ,g         0
+  _xsns_xpn
+                                  ffffa51e        24   func ,g         0
+FILE=interrupt
+                                  ffffa542  ffffa6e9       1a8
+  __kernel_initialize_interrupt
+                                  ffffa542        39   func ,g         1
+  _dis_int
+                                  ffffa57b        5e   func ,g         9
+  _ena_int
+                                  ffffa5d9        5b   func ,g         3
+  _chg_ipm
+                                  ffffa634        81   func ,g         0
+  _get_ipm
+                                  ffffa6b5        35   func ,g         0
+FILE=prc_config
+                                  ffffa6ea  ffffa7e3        fa
+  __kernel_prc_initialize
+                                  ffffa6ea         a   func ,g         1
+  __kernel_prc_terminate
+                                  ffffa6f4         1   func ,g         1
+  __kernel_x_config_int
+                                  ffffa6f5        cf   func ,g         1
+  __kernel_default_int_handler
+                                  ffffa7c4        10   func ,g         1
+  __kernel_default_exc_handler
+                                  ffffa7d4        10   func ,g         1
+FILE=prc_support
+                                  ffffa7e4  ffffaa09       226
+  __kernel_dispatch
+                                  ffffa7e4         0   none ,g        12
+  dispatch_r
+                                  ffffa7fa         0   none ,l         1
+  dispatch_r_rts
+                                  ffffa809         0   none ,l         2
+  __kernel_start_r
+                                  ffffa80c         0   none ,g         2
+  __kernel_start_dispatch
+                                  ffffa81f         0   none ,g         1
+  __exit_and_dispatch
+                                  ffffa828         0   none ,g         1
+  dispatcher
+                                  ffffa82e         0   none ,l         3
+  dispatcher_pre_idle
+                                  ffffa843         0   none ,l         1
+  dispatcher_idle_loop
+                                  ffffa854         0   none ,l         1
+  __kernel_call_exit_kernel
+                                  ffffa872         0   none ,g         2
+  ret_int
+                                  ffffa889         0   none ,l         2
+  ret_int_r
+                                  ffffa8cc         0   none ,l         1
+  ret_int_r_call_tex
+                                  ffffa8ce         0   none ,l         2
+  ret_int_r_rte
+                                  ffffa8dd         0   none ,l         2
+  _kernel_interrupt
+                                  ffffa8ed         0   none ,g         8
+  interrupt_from_int
+                                  ffffa917         0   none ,l         1
+  interrupt_return
+                                  ffffa93c         0   none ,l         1
+  _kernel_exception
+                                  ffffa94c         0   none ,g         1
+  exception_from_int
+                                  ffffa983         0   none ,l         1
+  exception_nonkernel
+                                  ffffa9b2         0   none ,l         1
+  exception_from_nonkernelint
+                                  ffffa9cc         0   none ,l         1
+  exception_return
+                                  ffffa9e8         0   none ,l         3
+  _sil_dly_nse
+                                  ffffa9fb         0   none ,g         0
+  sil_dly_nse_loop
+                                  ffffaa02         0   none ,l         1
+  sil_dly_nse_ret
+                                  ffffaa09         0   none ,l         1
+FILE=semaphore
+                                  ffffaa0a  ffffae09       400
+  __kernel_initialize_semaphore
+                                  ffffaa0a        31   func ,g         1
+  _sig_sem
+                                  ffffaa3b        c4   func ,g         3
+  _isig_sem
+                                  ffffaaff        c9   func ,g         3
+  _wai_sem
+                                  ffffabc8        78   func ,g         5
+  _pol_sem
+                                  ffffac40        54   func ,g         0
+  _twai_sem
+                                  ffffac94        91   func ,g         0
+  _ini_sem
+                                  ffffad25        59   func ,g         2
+  _ref_sem
+                                  ffffad7e        8c   func ,g         0
+FILE=startup
+                                  ffffae0a  ffffae8d        84
+  _sta_ker
+                                  ffffae0a        3e   func ,g         1
+  _ext_ker
+                                  ffffae48        1d   func ,g         6
+  __kernel_exit_kernel
+                                  ffffae65        29   func ,g         1
+FILE=sys_manage
+                                  ffffae8e  ffffb0f4       267
+  _rot_rdq
+                                  ffffae8e        53   func ,g         0
+  _irot_rdq
+                                  ffffaee1        47   func ,g         0
+  _get_tid
+                                  ffffaf28        3e   func ,g         0
+  _iget_tid
+                                  ffffaf66        45   func ,g         0
+  _loc_cpu
+                                  ffffafab        1a   func ,g        10
+  _iloc_cpu
+                                  ffffafc5        1a   func ,g         0
+  _unl_cpu
+                                  ffffafdf        1a   func ,g        10
+  _iunl_cpu
+                                  ffffaff9        1a   func ,g         0
+  _dis_dsp
+                                  ffffb013        35   func ,g         8
+  _ena_dsp
+                                  ffffb048        5c   func ,g         8
+  _sns_ctx
+                                  ffffb0a4         e   func ,g         0
+  _sns_loc
+                                  ffffb0b2         9   func ,g         0
+  _sns_dsp
+                                  ffffb0bb         9   func ,g         0
+  _sns_dpn
+                                  ffffb0c4        23   func ,g        11
+  _sns_ker
+                                  ffffb0e7         e   func ,g         0
+FILE=target_adc
+                                  ffffb0f5  ffffb141        4d
+  _aio_initialize
+                                  ffffb0f5         4   func ,g         1
+  _aio_opn_por
+                                  ffffb0f9         4   func ,g         1
+  _aio_cls_por
+                                  ffffb0fd        30   func ,g         0
+  _aio_rea_dat
+                                  ffffb12d        11   func ,g         1
+  _aio_isr
+                                  ffffb13e         4   func ,g         1
+FILE=target_config
+                                  ffffb142  ffffb196        55
+  __kernel_target_initialize
+                                  ffffb142        36   func ,g         1
+  __kernel_target_exit
+                                  ffffb178         6   func ,g         1
+  _target_fput_log
+                                  ffffb17e        19   func ,g        16
+FILE=target_gpio
+                                  ffffb197  ffffb2b1       11b
+  _gio_initialize
+                                  ffffb197         4   func ,g         1
+  _gio_opn_por
+                                  ffffb19b        71   func ,g         1
+  _gio_cls_por
+                                  ffffb20c        7e   func ,g         0
+  _gio_wri_dat
+                                  ffffb28a         b   func ,g         1
+  _gio_rea_dat
+                                  ffffb295        11   func ,g         1
+  _gio_irq2_isr
+                                  ffffb2a6         4   func ,g         1
+  _gio_nmi_isr
+                                  ffffb2aa         4   func ,g         1
+  _gio_reset_isr
+                                  ffffb2ae         4   func ,g         1
+FILE=target_pwm
+                                  ffffb2b2  ffffb2c8        17
+  _pio_initialize
+                                  ffffb2b2         4   func ,g         1
+  _pio_opn_por
+                                  ffffb2b6         4   func ,g         1
+  _pio_cls_por
+                                  ffffb2ba         4   func ,g         0
+  _pio_wri_dat
+                                  ffffb2be         b   func ,g         1
+FILE=target_serial
+                                  ffffb2c9  ffffb3fd       135
+  _sio_initialize
+                                  ffffb2c9         4   func ,g         1
+  _sio_opn_por
+                                  ffffb2cd        b8   func ,g         1
+  _sio_cls_por
+                                  ffffb385        57   func ,g         1
+  _sio_tx_isr
+                                  ffffb3dc         4   func ,g         1
+  _sio_rx_isr
+                                  ffffb3e0         4   func ,g         1
+  _sio_snd_chr
+                                  ffffb3e4         6   func ,g         8
+  _sio_rcv_chr
+                                  ffffb3ea         4   func ,g         1
+  _sio_ena_cbr
+                                  ffffb3ee         4   func ,g         7
+  _sio_dis_cbr
+                                  ffffb3f2         4   func ,g         1
+  _rx600_serial_irdy_snd
+                                  ffffb3f6         4   func ,g         1
+  _rx600_serial_irdy_rcv
+                                  ffffb3fa         4   func ,g         1
+FILE=target_support
+                                  ffffb3fe  ffffb408         b
+  _hardware_init_hook
+                                  ffffb3fe         0   none ,g         1
+  _software_init_hook
+                                  ffffb408         0   none ,g         1
+FILE=target_timer
+                                  ffffb409  ffffb473        6b
+  _target_timer_initialize
+                                  ffffb409        47   func ,g         1
+  _target_timer_terminate
+                                  ffffb450         c   func ,g         1
+  _target_timer_handler
+                                  ffffb45c        18   func ,g         1
+FILE=task
+                                  ffffb474  ffffb9c8       555
+  __kernel_initialize_task
+                                  ffffb474        e3   func ,g         1
+  __kernel_search_schedtsk
+                                  ffffb557        5f   func ,g         0
+  __kernel_make_runnable
+                                  ffffb5b6        47   func ,g         5
+  __kernel_make_non_runnable
+                                  ffffb5fd        de   func ,g         7
+  __kernel_make_dormant
+                                  ffffb6db        13   func ,g         2
+  __kernel_make_active
+                                  ffffb6ee        5b   func ,g         4
+  __kernel_change_priority
+                                  ffffb749       15f   func ,g         1
+  __kernel_rotate_ready_queue
+                                  ffffb8a8        93   func ,g         2
+  __kernel_call_texrtn
+                                  ffffb93b        8e   func ,g         2
+FILE=task_manage
+                                  ffffb9c9  ffffbd65       39d
+  _act_tsk
+                                  ffffb9c9        79   func ,g         1
+  _iact_tsk
+                                  ffffba42        6e   func ,g         0
+  _can_act
+                                  ffffbab0        62   func ,g         0
+  _ext_tsk
+                                  ffffbb12        77   func ,g         1
+  _ter_tsk
+                                  ffffbb89        b1   func ,g         0
+  _chg_pri
+                                  ffffbc3a        8f   func ,g         0
+  _get_pri
+                                  ffffbcc9        6a   func ,g         1
+  _get_inf
+                                  ffffbd33        33   func ,g         0
+FILE=task_sync
+                                  ffffbd66  ffffc211       4ac
+  _slp_tsk
+                                  ffffbd66        5f   func ,g         0
+  _tslp_tsk
+                                  ffffbdc5        6c   func ,g         0
+  _wup_tsk
+                                  ffffbe31        84   func ,g         0
+  _iwup_tsk
+                                  ffffbeb5        79   func ,g         0
+  _can_wup
+                                  ffffbf2e        6b   func ,g         0
+  _rel_wai
+                                  ffffbf99        5e   func ,g         0
+  _irel_wai
+                                  ffffbff7        63   func ,g         0
+  _sus_tsk
+                                  ffffc05a        a5   func ,g         0
+  _rsm_tsk
+                                  ffffc0ff        6b   func ,g         0
+  _dly_tsk
+                                  ffffc16a        a8   func ,g         5
+FILE=time_event
+                                  ffffc212  ffffc605       3f4
+  __kernel_initialize_tmevt
+                                  ffffc212        25   func ,g         1
+  __kernel_tmevt_up
+                                  ffffc237        53   func ,g         0
+  __kernel_tmevt_down
+                                  ffffc28a        78   func ,g         0
+  __kernel_tmevtb_insert
+                                  ffffc302        64   func ,g         2
+  __kernel_tmevtb_delete
+                                  ffffc366       10c   func ,g         4
+  __kernel_tmevt_lefttim
+                                  ffffc472        30   func ,g         0
+  __kernel_signal_time
+                                  ffffc4a2       164   func ,g         1
+FILE=time_manage
+                                  ffffc606  ffffc684        7f
+  _get_tim
+                                  ffffc606        2e   func ,g         0
+  _get_utm
+                                  ffffc634        51   func ,g         2
+FILE=rx600_adc
+                                  ffffc685  ffffc781        fd
+  _rx600_adc_initialize
+                                  ffffc685        22   func ,g         1
+  _rx600_adc_opn_por
+                                  ffffc6a7        5a   func ,g         1
+  _rx600_adc_cls_por
+                                  ffffc701         d   func ,g         1
+  _rx600_adc_rea_dat
+                                  ffffc70e        62   func ,g         1
+  _rx600_adc_isr
+                                  ffffc770        12   func ,g         1
+FILE=rx600_gpio
+                                  ffffc782  ffffc86d        ec
+  _rx600_gpio_initialize
+                                  ffffc782        22   func ,g         1
+  _rx600_gpio_opn_por
+                                  ffffc7a4        24   func ,g         1
+  _rx600_gpio_cls_por
+                                  ffffc7c8         e   func ,g         1
+  _rx600_gpio_wri_dat
+                                  ffffc7d6        41   func ,g         1
+  _rx600_gpio_rea_dat
+                                  ffffc817        21   func ,g         1
+  _rx600_gpio_irq2_isr
+                                  ffffc838        12   func ,g         1
+  _rx600_gpio_nmi_isr
+                                  ffffc84a        12   func ,g         1
+  _rx600_gpio_reset_isr
+                                  ffffc85c        12   func ,g         1
+FILE=rx600_pwm
+                                  ffffc86e  ffffc968        fb
+  _rx600_pwm_initialize
+                                  ffffc86e        22   func ,g         1
+  _rx600_pwm_opn_por
+                                  ffffc890        96   func ,g         1
+  _rx600_pwm_cls_por
+                                  ffffc926         d   func ,g         1
+  _rx600_pwm_wri_dat
+                                  ffffc933        36   func ,g         1
+FILE=rx600_serial
+                                  ffffc969  ffffcb0f       1a7
+  _rx600_serial_initialize
+                                  ffffc969        25   func ,g         1
+  _rx600_serial_init
+                                  ffffc98e        65   func ,g         1
+  _rx600_serial_pol_putc
+                                  ffffc9f3        18   func ,g         2
+  _rx600_serial_opn_por
+                                  ffffca0b        76   func ,g         1
+  _rx600_serial_cls_por
+                                  ffffca81         d   func ,g         1
+  _rx600_serial_snd_chr
+                                  ffffca8e        12   func ,g         1
+  _rx600_serial_rcv_chr
+                                  ffffcaa0         7   func ,g         1
+  _rx600_serial_ena_cbr
+                                  ffffcaa7        1d   func ,g         1
+  _rx600_serial_dis_cbr
+                                  ffffcac4        1d   func ,g         1
+  _rx600_serial_tx_isr
+                                  ffffcae1        1c   func ,g         1
+  _rx600_serial_rx_isr
+                                  ffffcafd        13   func ,g         1
+FILE=wait
+                                  ffffcb10  ffffce5f       350
+  _make_non_wait
+                                  ffffcb10        42   func ,l         2
+  __kernel_make_wait_tmout
+                                  ffffcb52        92   func ,g         2
+  __kernel_wait_complete
+                                  ffffcbe4        1b   func ,g         4
+  __kernel_wait_tmout
+                                  ffffcbff        2d   func ,g         1
+  __kernel_wait_tmout_ok
+                                  ffffcc2c        54   func ,g         1
+  __kernel_wait_release
+                                  ffffcc80        67   func ,g         2
+  __kernel_wobj_make_wait
+                                  ffffcce7        5a   func ,g         1
+  __kernel_wobj_make_wait_tmout
+                                  ffffcd41        56   func ,g         1
+  __kernel_init_wait_queue
+                                  ffffcd97        c9   func ,g         1
+
+SECTION=C
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\histogram.obj
+                                  ffffce60  ffffcf1e        bf
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\kernel_cfg.obj
+                                  ffffcf20  ffffd8f3       9d4
+  __kernel_tmax_tskid
+                                  ffffcf20         4   data ,g         e
+  __kernel_tinib_table
+                                  ffffcf24        60   data ,g         1
+  __kernel_torder_table
+                                  ffffcf84         c   data ,g         1
+  __kernel_tmax_semid
+                                  ffffcf90         4   data ,g         8
+  __kernel_seminib_table
+                                  ffffcf94        18   data ,g         1
+  __kernel_tmax_flgid
+                                  ffffcfac         4   data ,g         0
+  __kernel_tmax_dtqid
+                                  ffffcfb0         4   data ,g         0
+  __kernel_tmax_pdqid
+                                  ffffcfb4         4   data ,g         0
+  __kernel_tmax_mbxid
+                                  ffffcfb8         4   data ,g         0
+  __kernel_tmax_mpfid
+                                  ffffcfbc         4   data ,g         0
+  __kernel_tmax_cycid
+                                  ffffcfc0         4   data ,g         0
+  __kernel_tmax_almid
+                                  ffffcfc4         4   data ,g         0
+  __kernel_tnum_inhno
+                                  ffffcfc8         4   data ,g         1
+  __kernel_inhinib_table
+                                  ffffcfcc        54   data ,g         0
+  __kernel_tnum_intno
+                                  ffffd020         4   data ,g         1
+  __kernel_intinib_table
+                                  ffffd024        54   data ,g         1
+  __kernel_tnum_excno
+                                  ffffd078         4   data ,g         1
+  __kernel_istksz
+                                  ffffd07c         4   data ,g         0
+  __kernel_istk
+                                  ffffd080         4   data ,g         0
+  __kernel_istkpt
+                                  ffffd084         4   data ,g         6
+  __kernel_cfg_int_table
+                                  ffffd088       800   data ,g         a
+  __kernel_flginib_table
+                                  ffffd888         8   data ,g         0
+  __kernel_dtqinib_table
+                                  ffffd890         c   data ,g         0
+  __kernel_pdqinib_table
+                                  ffffd89c        10   data ,g         0
+  __kernel_mbxinib_table
+                                  ffffd8ac         8   data ,g         0
+  __kernel_mpfinib_table
+                                  ffffd8b4        14   data ,g         0
+  __kernel_cycinib_table
+                                  ffffd8c8        14   data ,g         0
+  __kernel_alminib_table
+                                  ffffd8dc         c   data ,g         0
+  __kernel_excinib_table
+                                  ffffd8e8         c   data ,g         0
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\log_output.obj
+                                  ffffd8f4  ffffd927        34
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\logtask.obj
+                                  ffffd928  ffffd96b        44
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\sample1.obj
+                                  ffffd96c  ffffdd76       40b
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\serial.obj
+                                  ffffdd78  ffffdd8f        18
+  _spinib_table
+                                  ffffdd78        18   data ,l         1
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\strerror.obj
+                                  ffffdd90  ffffde3c        ad
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\t_perror.obj
+                                  ffffde40  ffffde6c        2d
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\test_lib.obj
+                                  ffffde70  ffffdf37        c8
+FILE=prc_config
+                                  ffffdf38  ffffe034        fd
+FILE=semaphore
+                                  ffffe038  ffffe104        cd
+FILE=startup
+                                  ffffe108  ffffe175        6e
+FILE=target_adc
+                                  ffffe178  ffffe1fe        87
+FILE=target_gpio
+                                  ffffe200  ffffe287        88
+FILE=target_serial
+                                  ffffe288  ffffe311        8a
+FILE=task
+                                  ffffe314  ffffe456       143
+FILE=task_sync
+                                  ffffe458  ffffe4da        83
+FILE=time_event
+                                  ffffe4dc  ffffe56a        8f
+FILE=rx600_adc
+                                  ffffe56c  ffffe5ca        5f
+  _aiopinib_table
+                                  ffffe56c        48   data ,l         1
+FILE=rx600_gpio
+                                  ffffe5cc  ffffe653        88
+  _giopinib_table
+                                  ffffe5cc        40   data ,l         1
+FILE=rx600_pwm
+                                  ffffe654  ffffe683        30
+  _piopinib_table
+                                  ffffe654        30   data ,l         1
+FILE=rx600_serial
+                                  ffffe684  ffffe6bb        38
+  _siopinib_table
+                                  ffffe684        38   data ,l         3
+FILE=rx62t_conifg
+                                  ffffe6bc  fffff2db       c20
+  __kernel_ipr_reg_addr
+                                  ffffe6bc       400   data ,g         1
+  __kernel_ier_reg_addr
+                                  ffffeabc       800   data ,g         4
+  __kernel_irqcr_reg_addr
+                                  fffff2bc        20   data ,g         1
+FILE=wait
+                                  fffff2dc  fffff52b       250
+
+SECTION=C_1
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\banner.obj
+                                  fffff52c  fffff6f2       1c7
+  _banner
+                                  fffff52c       1c7   data ,l         1
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\log_output.obj
+                                  fffff6f3  fffff71f        2d
+  _raddec
+                                  fffff6f3         b   data ,l         1
+  _radhex
+                                  fffff6fe        11   data ,l         1
+  _radHEX
+                                  fffff70f        11   data ,l         1
+FILE=task
+                                  fffff720  fffff72e         f
+  _bitmap_search_table
+                                  fffff720         f   data ,l         3
+
+SECTION=C$VECT
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\start.obj
+                                  fffff730  fffff730         0
+  VVECTOR_TOP
+                                  fffff730         0   none ,g         1
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\kernel_cfg_asm.obj
+                                  fffff730  fffffb2f       400
+  vvector_table
+                                  fffff730         0   none ,l         0
+
+SECTION=FVECT
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\kernel_cfg_asm.obj
+                                  ffffff80  ffffffff        80
+  fvector_table
+                                  ffffff80         0   none ,l         0
+
+Absolute value symbols
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\start.obj
+  DFLRE
+                                  007fc440         0   none ,l         0
+  DB_BLOCK_ENABLE
+                                  00002d0f         0   none ,l         0
+FILE=prc_support
+  TCB_texptn
+                                  00000014         0   none ,l         0
+  SIL_DLY_TIM2
+                                  00000032         0   none ,l         0
+  SIL_DLY_TIM1
+                                  00000045         0   none ,l         0
+  IPL_LOCK
+                                  07000000         0   none ,l         0
+  TCB_enatex_mask
+                                  00000004         0   none ,l         0
+  TCB_tstat
+                                  0000000c         0   none ,l         0
+  LOG_DSP_LEAVE
+                                  00000000         0   none ,l         0
+  LOG_EXC_LEAVE
+                                  00000000         0   none ,l         0
+  EXCINF_REG_SIZE
+                                  00000024         0   none ,l         0
+  TCB_enatex_bit
+                                  00000002         0   none ,l         0
+  TINIB_exinf
+                                  00000004         0   none ,l         0
+  TCB_enatex
+                                  00000010         0   none ,l         0
+  LOG_EXC_ENTER
+                                  00000000         0   none ,l         0
+  PSW_I_MASK
+                                  00010000         0   none ,l         0
+  TIPM_LOCK
+                                  fffffff9         0   none ,l         0
+  RET_INT_GET_PSW_OFFSET
+                                  0000002c         0   none ,l         0
+  LOG_INH_ENTER
+                                  00000000         0   none ,l         0
+  LOG_DSP_ENTER
+                                  00000000         0   none ,l         0
+  TCB_pc
+                                  00000020         0   none ,l         0
+  TINIB_task
+                                  00000008         0   none ,l         0
+  EXC_GET_PSW_OFFSET
+                                  00000050         0   none ,l         0
+  LOG_INH_LEAVE
+                                  00000000         0   none ,l         0
+  PSW_IPL_MASK
+                                  07000000         0   none ,l         0
+  TCB_tinib
+                                  00000008         0   none ,l         0
+  TCB_sp
+                                  0000001c         0   none ,l         0
+FILE=target_support
+  CLOCK_VAL
+                                  00000100         0   none ,l         0
+  SCKCR
+                                  00080020         0   none ,l         0
+
+*** Delete Symbols ***
+
+SYMBOL                                SIZE    INFO

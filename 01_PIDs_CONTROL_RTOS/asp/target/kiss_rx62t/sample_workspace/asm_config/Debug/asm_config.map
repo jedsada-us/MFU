@@ -1,0 +1,266 @@
+Optimizing Linkage Editor (V.10.02.00.000)        03-May-2019 14:40:04
+
+*** Options ***
+
+-subcommand=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\asm_config\Debug\cfg1_out.hlk
+-noprelink
+-nomessage
+-list="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\asm_config\Debug\asm_config.map"
+-show=symbol
+-nooptimize
+-start=C/0100000,P/0FFE80000
+-nologo
+-input="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\asm_config\Debug\cfg1_out.obj"
+-output="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\asm_config\Debug\cfg1_out.abs"
+-end
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+C
+                                  00100000  0010034f       350   4
+P
+                                  ffe80000  ffe80002         3   1
+
+*** Symbol List ***
+
+SECTION=
+FILE=                               START        END    SIZE
+  SYMBOL                            ADDR        SIZE    INFO      COUNTS  OPT
+
+SECTION=C
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\asm_config\Debug\cfg1_out.obj
+                                  00100000  0010034f       350
+  __kernel_istksz
+                                  00100000         4   data ,g         * 
+  __kernel_istk
+                                  00100004         4   data ,g         * 
+  _TOPPERS_cfg_magic_number
+                                  00100008         4   data ,g         * 
+  _TOPPERS_cfg_sizeof_signed_t
+                                  0010000c         4   data ,g         * 
+  _TOPPERS_cfg_CHAR_BIT
+                                  00100010         8   data ,g         * 
+  _TOPPERS_cfg_CHAR_MAX
+                                  00100018         8   data ,g         * 
+  _TOPPERS_cfg_CHAR_MIN
+                                  00100020         8   data ,g         * 
+  _TOPPERS_cfg_SCHAR_MAX
+                                  00100028         8   data ,g         * 
+  _TOPPERS_cfg_SHRT_MAX
+                                  00100030         8   data ,g         * 
+  _TOPPERS_cfg_INT_MAX
+                                  00100038         8   data ,g         * 
+  _TOPPERS_cfg_LONG_MAX
+                                  00100040         8   data ,g         * 
+  _TOPPERS_cfg_TA_NULL
+                                  00100048         8   data ,g         * 
+  _TOPPERS_cfg_TA_ACT
+                                  00100050         8   data ,g         * 
+  _TOPPERS_cfg_TA_TPRI
+                                  00100058         8   data ,g         * 
+  _TOPPERS_cfg_TA_MPRI
+                                  00100060         8   data ,g         * 
+  _TOPPERS_cfg_TA_WMUL
+                                  00100068         8   data ,g         * 
+  _TOPPERS_cfg_TA_CLR
+                                  00100070         8   data ,g         * 
+  _TOPPERS_cfg_TA_STA
+                                  00100078         8   data ,g         * 
+  _TOPPERS_cfg_TA_NONKERNEL
+                                  00100080         8   data ,g         * 
+  _TOPPERS_cfg_TA_ENAINT
+                                  00100088         8   data ,g         * 
+  _TOPPERS_cfg_TA_EDGE
+                                  00100090         8   data ,g         * 
+  _TOPPERS_cfg_TMIN_TPRI
+                                  00100098         8   data ,g         * 
+  _TOPPERS_cfg_TMAX_TPRI
+                                  001000a0         8   data ,g         * 
+  _TOPPERS_cfg_TMIN_DPRI
+                                  001000a8         8   data ,g         * 
+  _TOPPERS_cfg_TMAX_DPRI
+                                  001000b0         8   data ,g         * 
+  _TOPPERS_cfg_TMIN_MPRI
+                                  001000b8         8   data ,g         * 
+  _TOPPERS_cfg_TMAX_MPRI
+                                  001000c0         8   data ,g         * 
+  _TOPPERS_cfg_TMIN_ISRPRI
+                                  001000c8         8   data ,g         * 
+  _TOPPERS_cfg_TMAX_ISRPRI
+                                  001000d0         8   data ,g         * 
+  _TOPPERS_cfg_TMAX_MAXSEM
+                                  001000d8         8   data ,g         * 
+  _TOPPERS_cfg_TMAX_RELTIM
+                                  001000e0         8   data ,g         * 
+  _TOPPERS_cfg_TMIN_INTPRI
+                                  001000e8         8   data ,g         * 
+  _TOPPERS_cfg_OMIT_INITIALIZE_INTERRUPT
+                                  001000f0         8   data ,g         * 
+  _TOPPERS_cfg_OMIT_INITIALIZE_EXCEPTION
+                                  001000f8         8   data ,g         * 
+  _TOPPERS_cfg_USE_TSKINICTXB
+                                  00100100         8   data ,g         * 
+  _TOPPERS_cfg_sizeof_ID
+                                  00100108         8   data ,g         * 
+  _TOPPERS_cfg_sizeof_uint_t
+                                  00100110         8   data ,g         * 
+  _TOPPERS_cfg_sizeof_SIZE
+                                  00100118         8   data ,g         * 
+  _TOPPERS_cfg_sizeof_ATR
+                                  00100120         8   data ,g         * 
+  _TOPPERS_cfg_sizeof_PRI
+                                  00100128         8   data ,g         * 
+  _TOPPERS_cfg_sizeof_void_ptr
+                                  00100130         8   data ,g         * 
+  _TOPPERS_cfg_sizeof_VP
+                                  00100138         8   data ,g         * 
+  _TOPPERS_cfg_sizeof_intptr_t
+                                  00100140         8   data ,g         * 
+  _TOPPERS_cfg_sizeof_FP
+                                  00100148         8   data ,g         * 
+  _TOPPERS_cfg_sizeof_TINIB
+                                  00100150         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_TINIB_tskatr
+                                  00100158         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_TINIB_exinf
+                                  00100160         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_TINIB_task
+                                  00100168         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_TINIB_ipriority
+                                  00100170         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_TINIB_stksz
+                                  00100178         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_TINIB_stk
+                                  00100180         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_TINIB_texatr
+                                  00100188         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_TINIB_texrtn
+                                  00100190         8   data ,g         * 
+  _TOPPERS_cfg_sizeof_SEMINIB
+                                  00100198         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_SEMINIB_sematr
+                                  001001a0         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_SEMINIB_isemcnt
+                                  001001a8         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_SEMINIB_maxsem
+                                  001001b0         8   data ,g         * 
+  _TOPPERS_cfg_sizeof_FLGPTN
+                                  001001b8         8   data ,g         * 
+  _TOPPERS_cfg_sizeof_FLGINIB
+                                  001001c0         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_FLGINIB_flgatr
+                                  001001c8         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_FLGINIB_iflgptn
+                                  001001d0         8   data ,g         * 
+  _TOPPERS_cfg_sizeof_DTQINIB
+                                  001001d8         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_DTQINIB_dtqatr
+                                  001001e0         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_DTQINIB_dtqcnt
+                                  001001e8         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_DTQINIB_p_dtqmb
+                                  001001f0         8   data ,g         * 
+  _TOPPERS_cfg_sizeof_PDQINIB
+                                  001001f8         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_PDQINIB_pdqatr
+                                  00100200         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_PDQINIB_pdqcnt
+                                  00100208         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_PDQINIB_maxdpri
+                                  00100210         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_PDQINIB_p_pdqmb
+                                  00100218         8   data ,g         * 
+  _TOPPERS_cfg_sizeof_MBXINIB
+                                  00100220         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_MBXINIB_mbxatr
+                                  00100228         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_MBXINIB_maxmpri
+                                  00100230         8   data ,g         * 
+  _TOPPERS_cfg_sizeof_MPFINIB
+                                  00100238         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_MPFINIB_mpfatr
+                                  00100240         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_MPFINIB_blkcnt
+                                  00100248         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_MPFINIB_blksz
+                                  00100250         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_MPFINIB_mpf
+                                  00100258         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_MPFINIB_p_mpfmb
+                                  00100260         8   data ,g         * 
+  _TOPPERS_cfg_sizeof_CYCINIB
+                                  00100268         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_CYCINIB_cycatr
+                                  00100270         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_CYCINIB_exinf
+                                  00100278         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_CYCINIB_cychdr
+                                  00100280         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_CYCINIB_cyctim
+                                  00100288         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_CYCINIB_cycphs
+                                  00100290         8   data ,g         * 
+  _TOPPERS_cfg_sizeof_ALMINIB
+                                  00100298         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_ALMINIB_almatr
+                                  001002a0         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_ALMINIB_exinf
+                                  001002a8         8   data ,g         * 
+  _TOPPERS_cfg_offsetof_ALMINIB_almhdr
+                                  001002b0         8   data ,g         * 
+  _TOPPERS_cfg_sizeof_INHNO
+                                  001002b8         8   data ,g         * 
+  _TOPPERS_cfg_sizeof_INTNO
+                                  001002c0         8   data ,g         * 
+  _TOPPERS_cfg_sizeof_EXCNO
+                                  001002c8         8   data ,g         * 
+  _TOPPERS_cfg_TA_LOWLEVEL
+                                  001002d0         8   data ,g         * 
+  _TOPPERS_cfg_TA_BOTHEDGE
+                                  001002d8         8   data ,g         * 
+  _TOPPERS_cfg_TA_NEGEDGE
+                                  001002e0         8   data ,g         * 
+  _TOPPERS_cfg_TIPM_LOCK
+                                  001002e8         8   data ,g         * 
+  _TOPPERS_cfg_IPL_LOCK
+                                  001002f0         8   data ,g         * 
+  _TOPPERS_cfg_PSW_I_MASK
+                                  001002f8         8   data ,g         * 
+  _TOPPERS_cfg_PSW_IPL_MASK
+                                  00100300         8   data ,g         * 
+  _TOPPERS_cfg_EXC_GET_PSW_OFFSET
+                                  00100308         8   data ,g         * 
+  _TOPPERS_cfg_LOG_DSP_ENTER
+                                  00100310         8   data ,g         * 
+  _TOPPERS_cfg_LOG_DSP_LEAVE
+                                  00100318         8   data ,g         * 
+  _TOPPERS_cfg_LOG_INH_ENTER
+                                  00100320         8   data ,g         * 
+  _TOPPERS_cfg_LOG_INH_LEAVE
+                                  00100328         8   data ,g         * 
+  _TOPPERS_cfg_LOG_EXC_ENTER
+                                  00100330         8   data ,g         * 
+  _TOPPERS_cfg_LOG_EXC_LEAVE
+                                  00100338         8   data ,g         * 
+  _TOPPERS_cfg_SIL_DLY_TIM1
+                                  00100340         8   data ,g         * 
+  _TOPPERS_cfg_SIL_DLY_TIM2
+                                  00100348         8   data ,g         * 
+
+SECTION=P
+FILE=C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\asm_config\Debug\cfg1_out.obj
+                                  ffe80000  ffe80002         3
+  _sta_ker
+                                  ffe80000         1   func ,g         * 
+  _hardware_init_hook
+                                  ffe80001         1   func ,g         * 
+  _software_init_hook
+                                  ffe80002         1   func ,g         * 
+
+*** Delete Symbols ***
+
+SYMBOL                                SIZE    INFO

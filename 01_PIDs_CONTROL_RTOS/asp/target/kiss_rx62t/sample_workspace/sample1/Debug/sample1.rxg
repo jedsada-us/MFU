@@ -1,0 +1,7 @@
+-cpu=rx600
+-dbl_size=8
+-patch=rx610
+-output="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\sample1\Debug\sample1.lib"
+-section=L=C
+-optimize=0
+-head=runtime,new

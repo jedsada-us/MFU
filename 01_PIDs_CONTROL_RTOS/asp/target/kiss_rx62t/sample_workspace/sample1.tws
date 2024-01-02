@@ -1,0 +1,18 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"1.2" 
+[CURRENT_PROJECT]
+"sample1" 
+[GENERAL_DATA]
+"BuildMultipleSettings" "asm_config|Release|asm_config|Debug|makeoffset|Debug|makeoffset|Release|kernel|Debug|kernel|Release|cfg|Debug|cfg|Release|sample1|Release|sample1|Debug||" 
+[BREAKPOINTS]
+[OPEN_WORKSPACE_FILES]
+[WORKSPACE_FILE_STATES]
+[LOADED_PROJECTS]
+"asm_config" 
+"cfg" 
+"kernel" 
+"makeoffset" 
+"sample1" 
+[END]

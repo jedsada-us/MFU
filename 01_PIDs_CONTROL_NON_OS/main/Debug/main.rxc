@@ -1,0 +1,6 @@
+-cpu=rx600
+-lang=c
+-output=obj="C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop5\01_PIDs_Control_Non_OS\main\Debug\main.obj"
+-debug
+"C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop5\01_PIDs_Control_Non_OS\main\main.c"
+-nologo

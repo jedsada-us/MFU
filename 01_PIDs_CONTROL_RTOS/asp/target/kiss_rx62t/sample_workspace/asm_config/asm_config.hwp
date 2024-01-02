@@ -1,0 +1,252 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"2.8" 
+[PROJECT_DETAILS]
+"asm_config" "C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\asm_config" "C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\asm_config\asm_config.hwp" "RX" "Renesas RX Standard" "Empty Application" "RX600" "Other" 
+[INFORMATION]
+"プロジェクト情報がありません" 
+[TOOL_CHAIN]
+"Renesas RX Standard Toolchain" "1.2.1.0" 
+[CONFIGURATIONS]
+"Debug" "C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\asm_config\Debug" 
+"Release" "C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\asm_config\Release" 
+[BUILD_PHASES]
+"Generate asm_config.inc" 0 
+"Generate cfg1_out.c" 0 
+"Renesas OptLinker" 1 
+"Renesas RX Assembler" 1 
+"Renesas RX C/C++ Compiler" 1 
+"Renesas RX C/C++ Library Generator" 1 
+"Renesas RX Configurator" 1 
+[TOOL_ENVIRONMENT]
+[EXTENSIONS]
+"Absolute file" "ABS" 
+"Assembly include file" "INC" 
+"Assembly list file" "LST" 
+"Assembly source file" "S" 
+"Assembly source file" "SRC" 
+"Binary file" "BIN" 
+"C header file" "H" 
+"C source file" "C" 
+"C++ header file" "HPP" 
+"C++ source file" "CC" 
+"C++ source file" "CP" 
+"C++ source file" "CPP" 
+"CPU information file" "CPU" 
+"Calling information file" "CAL" 
+"Configuration file" "CFG" 
+"Debug information file" "DBG" 
+"Hex file" "HEX" 
+"Library file" "LIB" 
+"Library information file" "LBP" 
+"Linkage map file" "MAP" 
+"Linkage symbol file" "FSY" 
+"Object file" "OBJ" 
+"Optimize map file" "bls" 
+"Preprocessed C source file" "P" 
+"Preprocessed C++ source file" "PP" 
+"Relocatable file" "REL" 
+"Rts information file" "RTS" 
+"S-Record file" "MOT" 
+"Stack information file" "SNI" 
+"TD include object file" "RTI" 
+[FILE_GROUPS]
+"Absolute file" "BIN" "NONE" "" 
+"Assembly include file" "TEXT" "EDITOR" "" 
+"Assembly list file" "TEXT" "EDITOR" "" 
+"Assembly source file" "TEXT" "EDITOR" "" 
+"Binary file" "BIN" "NONE" "" 
+"C header file" "TEXT" "EDITOR" "" 
+"C source file" "TEXT" "EDITOR" "" 
+"C++ header file" "TEXT" "EDITOR" "" 
+"C++ source file" "TEXT" "EDITOR" "" 
+"CPU information file" "BIN" "NONE" "" 
+"Calling information file" "BIN" "NONE" "" 
+"Configuration file" "TEXT" "EDITOR" "" 
+"Debug information file" "BIN" "NONE" "" 
+"Hex file" "TEXT" "EDITOR" "" 
+"Library file" "BIN" "NONE" "" 
+"Library information file" "TEXT" "EDITOR" "" 
+"Linkage map file" "TEXT" "EDITOR" "" 
+"Linkage symbol file" "TEXT" "EDITOR" "" 
+"Object file" "BIN" "NONE" "" 
+"Optimize map file" "BIN" "NONE" "" 
+"Preprocessed C source file" "TEXT" "EDITOR" "" 
+"Preprocessed C++ source file" "TEXT" "EDITOR" "" 
+"Relocatable file" "BIN" "NONE" "" 
+"Rts information file" "BIN" "NONE" "" 
+"S-Record file" "TEXT" "EDITOR" "" 
+"Stack information file" "BIN" "NONE" "" 
+"TD include object file" "BIN" "NONE" "" 
+[ASSOCIATED_APPLICATIONS]
+[TOOLCHAIN_PHASE]
+"Renesas OptLinker" 
+"Renesas RX Assembler" 
+"Renesas RX C/C++ Compiler" 
+"Renesas RX C/C++ Library Generator" 
+"Renesas RX Configurator" 
+[UTILITY_PHASE]
+[CUSTOM_PHASES]
+"Generate asm_config.inc" "$(WORKSPDIR)\..\asm_config_pass2.bat" "$(CONFIGDIR)" 0 0 1 
+"Generate cfg1_out.c" "$(WORKSPDIR)\..\asm_config_pass1.bat" "$(PROJDIR)" 0 0 1 
+[CUSTOM_PHASE_INPUT_GROUP]
+[CUSTOM_PHASE_OUTPUT_SYNTAX]
+[ENVIRONMENT_Generate asm_config.inc]
+[ENVIRONMENT_Generate cfg1_out.c]
+[BUILD_ORDER]
+"Generate cfg1_out.c" 1 
+"Renesas RX C/C++ Library Generator" 1 
+"Renesas RX C/C++ Compiler" 1 
+"Renesas RX Assembler" 1 
+"Renesas OptLinker" 1 
+"Renesas RX Configurator" 0 
+"Generate asm_config.inc" 1 
+[BUILD_PHASE_DETAILS]
+"Renesas OptLinker" "Object file|Library file|Relocatable file" 0 
+"Renesas RX Assembler" "Assembly source file|Linkage symbol file" 1 
+"Renesas RX C/C++ Compiler" "C source file|C++ source file" 1 
+"Renesas RX C/C++ Library Generator" "" 0 
+"Renesas RX Configurator" "Configuration file" 0 
+[BUILD_FILE_ORDER_Assembly source file]
+"Renesas RX Assembler" 1 
+[BUILD_FILE_ORDER_C source file]
+"Renesas RX C/C++ Compiler" 1 
+[BUILD_FILE_ORDER_C++ source file]
+"Renesas RX C/C++ Compiler" 1 
+[BUILD_FILE_ORDER_Linkage symbol file]
+"Renesas RX Assembler" 1 
+[SCRAP]
+"Project Generator Setup File" "" 
+[MAPPINGS]
+"Assembly source file" "Renesas RX Assembler" "Renesas RX C/C++ Compiler" 
+"Library file" "Renesas OptLinker" "Renesas RX C/C++ Library Generator" 
+"Object file" "Renesas OptLinker" "Renesas RX Assembler" 
+"Object file" "Renesas OptLinker" "Renesas RX C/C++ Compiler" 
+[PROJECT_FILES]
+"C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\asm_config\cfg1_out.c" "User" "C source file" 2 
+[FOLDER]
+"C source file" "C source file" 
+[GENERAL_DATA_PROJECT]
+"MAKEGEN_GENERATE_MAKEFILE_FOR" "0" 
+"MAKEGEN_MAKEFILE_FORMAT" "2" 
+"MAKEGEN_MAKEFILE_RELATIVITY" "1" 
+"MAKEGEN_SCAN_DEPENDENCIES_WHILST_BUILDING_MAKEFILE" "1" 
+"MAKEGEN_USE_STATIC_SUBCOMMAND_FILES" "1" 
+"USE_CUSTOM_LINKAGE_ORDER" "0" 
+[ON_DEMAND_COMPONENTS_LOADED]
+[SYNC_SESSION_NAMES]
+[SESSIONS]
+"DefaultSession" "C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\asm_config\DefaultSession.hsf" 0 
+[GENERAL_DATA_SESSION_DefaultSession]
+[OPTIONS_Debug_Generate asm_config.inc]
+"Single Shot" "03b342adf8534d10" 8 
+[OPTIONS_Debug_Generate cfg1_out.c]
+"Single Shot" "0120b73933174d10" 1 
+[OPTIONS_Debug_Renesas OptLinker]
+"Single Shot" "05c56ee17ce24d10" 6 
+[OPTIONS_Debug_Renesas RX Assembler]
+"Assembly source file" "05c56ee17ce24d10" 5 
+"Linkage symbol file" "05c56ee17ce24d10" 5 
+[OPTIONS_Debug_Renesas RX C/C++ Compiler]
+"C source file" "0c7e07e433174d10" 3 
+"C++ source file" "0c7e07e433174d10" 4 
+"C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\asm_config\cfg1_out.c" "0c7e07e433174d10" 3 
+[OPTIONS_Debug_Renesas RX C/C++ Library Generator]
+"Single Shot" "027e5ee17ce24d10" 2 
+[OPTIONS_Debug_Renesas RX Configurator]
+"Single Shot" "05c56ee17ce24d10" 7 
+[OPTIONS_Debug]
+"" 0 
+"$(WORKSPDIR)\..\..\.." 1 
+"$(WORKSPDIR)\..\..\.. $(WORKSPDIR)\kernel" 8 
+"[V|VERSION|1] [B|COMMAND|1] [S|OUTPUTPATH|^"$(CONFIGDIR)^"] [S|SPEC|UITRON4] [S|CPU|RX600] [S|BASE|00000000=NONE]
+" 7 
+"[V|VERSION|1] [B|SJIS|1] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [S|CPU|RX600] [S|BASE|00000000=NONE]
+" 5 
+"[V|VERSION|1] [S|LANG|C99] [B|SJIS|1] [S|INCLUDE|^"$(WORKSPDIR)\..\..\..^"|^"$(WORKSPDIR)\..\..\..\include^"|^"$(WORKSPDIR)\..\..\..\kernel^"|^"$(WORKSPDIR)\..\..\..\arch^"|^"$(WORKSPDIR)\..\..\..\target\kiss_rx62t^"] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|DEBUG|1] [S|SECTION|L=C] [B|SPEED|1] [B|MAP|0] [B|INLINE|1] [I|INLINE|100] [I|LOOP|2] [B|SCOPE|0] [S|MISRA2004|ALL] [S|MISRA2004RULEFILE|^"$(CONFIGDIR)\$(PROJECTNAME).rde^"] [S|CPU|RX600] [S|BASE|00000000=NONE] [I|PID|16]
+" 3 
+"[V|VERSION|1] [S|LANG|CPP] [B|SJIS|1] [S|INCLUDE|^"$(WORKSPDIR)\..\..\..^"|^"$(WORKSPDIR)\..\..\..\include^"|^"$(WORKSPDIR)\..\..\..\kernel^"|^"$(WORKSPDIR)\..\..\..\arch^"|^"$(WORKSPDIR)\..\..\..\target\kiss_rx62t^"] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|DEBUG|1] [S|SECTION|L=C] [B|SPEED|1] [B|MAP|0] [B|INLINE|1] [I|INLINE|100] [I|LOOP|2] [B|SCOPE|0] [S|MISRA2004|ALL] [S|MISRA2004RULEFILE|^"$(CONFIGDIR)\$(PROJECTNAME).rde^"] [S|CPU|RX600] [S|BASE|00000000=NONE] [I|PID|16]
+" 4 
+"[V|VERSION|1] [S|MODE|NOTADD] [S|EXISTOUTPUTPATH|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] [B|RUNTIME|1] [B|NEW|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] [B|SIZE|1] [I|INLINE|100] [I|LOOP|2] [S|CPU|RX600] [S|BASE|00000000=NONE]
+ [S|SECTION|L=C]" 2 
+"[V|VERSION|6] [S|PRELINK|SKIP] [S|FORM|STYPE] [S|BYTE_COUNT_VALUE|FF] [B|DEBUG|1] [S|CRC|NONE|DEFAULT|00000000] [B|LIST|1] [S|LIST|^"$(CONFIGDIR)\$(PROJECTNAME).map^"] [S|SHOW|METHODCUSTOM|SYMBOL] [S|OUTPUT|^"$(CONFIGDIR)\cfg1_out.srec^"] [I|SPACE|^"FF^"] [B|OPTIMIZE|0] [S|START|C(0100000)|P(0FFE80000)]
+" 6 
+[DEPENDENCIES_Debug_Generate asm_config.inc]
+"Single Shot" "$(CONFIGDIR)\asm_config.map" "UnknownCustom" 
+"Single Shot" "$(CONFIGDIR)\cfg1_out.srec" "UnknownCustom" 
+"Single Shot" "$(WORKSPDIR)\..\..\..\arch\rx_rxc\prc_asm_config.tf" "UnknownCustom" 
+"Single Shot" "$(WORKSPDIR)\..\..\..\target\kiss_rx62t\target_asm_config.tf" "UnknownCustom" 
+[DEPENDENCIES_Debug_Generate cfg1_out.c]
+"Single Shot" "$(WORKSPDIR)\..\..\..\arch\rx_rxc\prc_def.csv" "UnknownCustom" 
+"Single Shot" "$(WORKSPDIR)\..\..\..\kernel\kernel_api.csv" "UnknownCustom" 
+"Single Shot" "$(WORKSPDIR)\..\..\..\kernel\kernel_def.csv" "UnknownCustom" 
+"Single Shot" "$(WORKSPDIR)\..\..\..\target\kiss_rx62t\asm_config.cfg" "UnknownCustom" 
+"Single Shot" "$(WORKSPDIR)\..\..\..\target\kiss_rx62t\target_def.csv" "UnknownCustom" 
+[OUTPUT_FILES_Debug_Generate asm_config.inc]
+"Single Shot" "$(WORKSPDIR)\kernel\asm_config.inc" "UnknownCustom" 0 
+[OUTPUT_FILES_Debug_Generate cfg1_out.c]
+"Single Shot" "$(PROJDIR)\cfg1_out.c" "UnknownCustom" 0 
+[EXCLUDED_FILES_Debug]
+[LINKAGE_ORDER_Debug]
+[GENERAL_DATA_CONFIGURATION_Debug]
+[OPTIONS_Release_Generate asm_config.inc]
+"Single Shot" "027e5ee17ce24d10" 8 
+[OPTIONS_Release_Generate cfg1_out.c]
+"Single Shot" "0f175ee17ce24d10" 1 
+[OPTIONS_Release_Renesas OptLinker]
+"Single Shot" "027e5ee17ce24d10" 6 
+[OPTIONS_Release_Renesas RX Assembler]
+"Assembly source file" "027e5ee17ce24d10" 5 
+"Linkage symbol file" "027e5ee17ce24d10" 5 
+[OPTIONS_Release_Renesas RX C/C++ Compiler]
+"C source file" "0120b73933174d10" 3 
+"C++ source file" "0120b73933174d10" 4 
+"C:\cygwin\home\jedsada\01_utkernel\Workshop\01_Template\Workshop6\01_PIDs_Control_RTOS\asp\target\kiss_rx62t\sample_workspace\asm_config\cfg1_out.c" "0120b73933174d10" 3 
+[OPTIONS_Release_Renesas RX C/C++ Library Generator]
+"Single Shot" "0f175ee17ce24d10" 2 
+[OPTIONS_Release_Renesas RX Configurator]
+"Single Shot" "027e5ee17ce24d10" 7 
+[OPTIONS_Release]
+"" 0 
+"$(WORKSPDIR)\..\..\.." 1 
+"$(WORKSPDIR)\..\..\.. $(WORKSPDIR)\kernel" 8 
+"[V|VERSION|1] [B|COMMAND|1] [S|OUTPUTPATH|^"$(CONFIGDIR)^"] [S|SPEC|UITRON4] [S|CPU|RX600] [S|BASE|00000000=NONE]
+" 7 
+"[V|VERSION|1] [B|SJIS|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [S|CPU|RX600] [S|BASE|00000000=NONE]
+" 5 
+"[V|VERSION|1] [S|LANG|C99] [B|SJIS|1] [S|INCLUDE|^"$(WORKSPDIR)\..\..\..^"|^"$(WORKSPDIR)\..\..\..\include^"|^"$(WORKSPDIR)\..\..\..\kernel^"|^"$(WORKSPDIR)\..\..\..\arch^"|^"$(WORKSPDIR)\..\..\..\target\kiss_rx62t^"] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [S|SECTION|L=C] [B|SIZE|1] [B|MAP|0] [B|INLINE|1] [I|INLINE|100] [I|LOOP|2] [B|SCOPE|0] [S|MISRA2004|ALL] [S|MISRA2004RULEFILE|^"$(CONFIGDIR)\$(PROJECTNAME).rde^"] [S|CPU|RX600] [S|BASE|00000000=NONE] [I|PID|16]
+" 3 
+"[V|VERSION|1] [S|LANG|CPP] [B|SJIS|1] [S|INCLUDE|^"$(WORKSPDIR)\..\..\..^"|^"$(WORKSPDIR)\..\..\..\include^"|^"$(WORKSPDIR)\..\..\..\kernel^"|^"$(WORKSPDIR)\..\..\..\arch^"|^"$(WORKSPDIR)\..\..\..\target\kiss_rx62t^"] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [S|SECTION|L=C] [B|SIZE|1] [B|MAP|0] [B|INLINE|1] [I|INLINE|100] [I|LOOP|2] [B|SCOPE|0] [S|MISRA2004|ALL] [S|MISRA2004RULEFILE|^"$(CONFIGDIR)\$(PROJECTNAME).rde^"] [S|CPU|RX600] [S|BASE|00000000=NONE] [I|PID|16]
+" 4 
+"[V|VERSION|1] [S|MODE|NOTADD] [S|EXISTOUTPUTPATH|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] [B|RUNTIME|1] [B|NEW|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] [B|SIZE|1] [I|INLINE|100] [I|LOOP|2] [S|CPU|RX600] [S|BASE|00000000=NONE]
+ [S|SECTION|L=C]" 2 
+"[V|VERSION|6] [S|FORM|STYPE] [S|BYTE_COUNT_VALUE|FF] [B|DEBUG|0] [S|CRC|NONE|DEFAULT|00000000] [B|LIST|1] [S|LIST|^"$(CONFIGDIR)\$(PROJECTNAME).map^"] [S|SHOW|METHODCUSTOM|SYMBOL] [S|OUTPUT|^"$(CONFIGDIR)\cfg1_out.srec^"] [I|SPACE|^"FF^"] [B|OPTIMIZE|0] [S|START|C(0100000)|P(0FFE80000)]
+ [S|ENDIAN|LITTLE]" 6 
+[DEPENDENCIES_Release_Generate asm_config.inc]
+"Single Shot" "$(CONFIGDIR)\asm_config.map" "UnknownCustom" 
+"Single Shot" "$(CONFIGDIR)\cfg1_out.srec" "UnknownCustom" 
+"Single Shot" "$(WORKSPDIR)\..\..\..\arch\rx_rxc\prc_asm_config.tf" "UnknownCustom" 
+"Single Shot" "$(WORKSPDIR)\..\..\..\target\kiss_rx62t\target_asm_config.tf" "UnknownCustom" 
+[DEPENDENCIES_Release_Generate cfg1_out.c]
+"Single Shot" "$(WORKSPDIR)\..\..\..\arch\rx_rxc\prc_def.csv" "UnknownCustom" 
+"Single Shot" "$(WORKSPDIR)\..\..\..\kernel\kernel_api.csv" "UnknownCustom" 
+"Single Shot" "$(WORKSPDIR)\..\..\..\kernel\kernel_def.csv" "UnknownCustom" 
+"Single Shot" "$(WORKSPDIR)\..\..\..\target\kiss_rx62t\asm_config.cfg" "UnknownCustom" 
+"Single Shot" "$(WORKSPDIR)\..\..\..\target\kiss_rx62t\target_def.csv" "UnknownCustom" 
+[OUTPUT_FILES_Release_Generate asm_config.inc]
+"Single Shot" "$(WORKSPDIR)\kernel\asm_config.inc" "UnknownCustom" 0 
+[OUTPUT_FILES_Release_Generate cfg1_out.c]
+"Single Shot" "$(PROJDIR)\cfg1_out.c" "UnknownCustom" 0 
+[EXCLUDED_FILES_Release]
+[LINKAGE_ORDER_Release]
+[GENERAL_DATA_CONFIGURATION_Release]
+[GENERAL_DATA_CONFIGURATION_SESSION_Debug_DefaultSession]
+[SESSION_DATA_CONFIGURATION_SESSION_Debug_DefaultSession]
+"MEMORY_MAPPING_OPTIONS" "" 
+[GENERAL_DATA_CONFIGURATION_SESSION_Release_DefaultSession]
+[SESSION_DATA_CONFIGURATION_SESSION_Release_DefaultSession]
+"MEMORY_MAPPING_OPTIONS" "" 
+[EXT_DEBUGGER_INFO]
+0 "" "" "" "" 
+[END]
